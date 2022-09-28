@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html style="
+margin-top: 20px;
+margin-left: 40px;
+margin-right: 40px;
+border-bottom-width: 20px;">
+<head>
+<title> Reto 2</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="misfunciones.js"></script>
+</head>
+
+<body style="background-image: radial-gradient(circle at 35.48% 70.74%, #a6ffff 0, #99f3ff 25%, #84b9ee 50%, #6a83a1 75%, #4d535d 100%);">
+<div style=" background-color: beige;
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+border-bottom-width: 20px;">
+    <h1 style=" text-align: center; font-style: italic; font-size: 20; ">Formulario del grupo G11 Reto 2 ciclo 3</h1>
+
+	<h2>Clientes!</h2>
+    
+	Id de Cliente: <input type="number" id="idCliente"><br>
+	<br>
+	Nombre de Cliente: <input type="text" id="nombreCliente"><br>
+	<br>
+	Correo de Cliente: <input type="text" id="mailCliente"><br>
+	<br>
+	Edad de Cliente: <input type="number" id="edadCliente"><br>
+    <br>
+	<button onclick="guardarCliente()" style="background-color: rgb(192, 200, 245)">GUARDAR CLIENTE</button>
+	<button onclick="editarCliente()"style="background-color: rgb(192, 200, 245)">ACTUALIZAR CLIENTE</button>
+	<button onclick="leerClientes()"style="background-color: rgb(192, 200, 245)">TRAER CLIENTES</button>
+	<div id="listaClientes">
+    <br>
+    </div>
+	
+
+	<h2>Cabana!</h2>
+    
+	Id de la cabana: <input type="number" id="idCabana"><br>
+	<br>
+	Sucursal de la cabana: <input type="text" id="sucursalCabana"><br>
+	<br>
+	Numero la cabana: <input type="number" id="numeroCabana"><br>
+	<br>
+	Categoria de la cabana: <input type="number" id="categoriaCabana"><br>
+    <br>
+	Nombre de la cabana: <input type="text" id="nombreCabana"><br>
+	<br>
+	<button onclick="guardarCabana()" style="background-color: rgb(192, 200, 245)">GUARDAR CABANA</button>
+	<button onclick="editarCabana()" style="background-color: rgb(192, 200, 245)">ACTUALIZAR CABANA</button>
+	<button onclick="leerCabana()" style="background-color: rgb(192, 200, 245)">TRAER CABANA</button>
+	<br>
+	<div id="listaCabana">
+	<br>
+	</div>
+
+	<h2>Mensaje!</h2>
+    
+	Id del Mensaje <input type="number" id="idMensaj"><br>
+	<br>
+	<!--Cuerpo del mensaje: <input type="text" id="mensaje"><br>-->
+	  Cuerpo del mensaje:
+	<br>
+	<textarea type="text" id="mensaje" name="mensaje" rows="4" cols="100" placeholder="=mensaje">
+	</textarea>
+	<br>
+	<br>
+	<button onclick="guardarMensaje()" style="background-color: rgb(192, 200, 245)">GUARDAR MENSAJE</button>
+	<button onclick="editarMensaje()" style="background-color: rgb(192, 200, 245)" >ACTUALIZAR MENSAJE</button>
+	<button onclick="leerMensaje()" style="background-color: rgb(192, 200, 245)">TRAER MENSAJE</button>
+	<br>
+	<div id="listaMensaje">
+	<br>
+	</div>
+</div>
+    
+
+
+
+</body>
+</html>
+</html>
